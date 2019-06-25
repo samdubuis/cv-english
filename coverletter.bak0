@@ -1,0 +1,145 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=2cm, top=.8cm, right=2cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[rectangle,edge,right]{pp}
+\name{Samuel}{Dubuis}
+\position{Student{\enskip\cdotp\enskip}Teaching-assistant}
+\address{Passage Mathias-Mayor 2, 1004 Lausanne, Vaud, Suisse}
+
+\mobile{+41 77 454 57 54}
+\email{samuel.dubuis@netplus.ch}
+%\homepage{www.posquit0.com}
+\github{samdubuis}
+\linkedin{samueldubuis}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+% \quote{``Be the change that you want to see in the world. Now!"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Fastree3D SA
+}
+  {
+EPFL Innovation Park \newline
+Ch. de Dent d’Oche 1B \newline
+CH-1024 Ecublens \newline
+Switzerland
+  }
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job application for college student}
+% How the letter is opened
+\letteropening{Dear Madam, Sir}
+% How the letter is closed
+\letterclosing{Yours faithfully, }
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+\newcommand{\companyName}{Fastree3D }
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Samuel Dubuis~~~·~~~Motivational letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About me}
+Being currently a student in my third year at the École Polytechnique Fédérale de Lausanne, I'm looking for a part-time job or internship for the next semester. My schedule can offer me availabilities which I'd like to take profit of. Thereby I would like to offer my spontaneous application for a a job at your company.
+
+\lettersection{Why \companyName	?}
+To work for \companyName would be the occasion for me to discover the reality of the professional world in the field of my studies. 
+%The company's reputation really attracts me, it would be a great opportunity.
+The courses I have taken during my studies bring me close to the field of work of \companyName, being in the Communication Systems field. Signal processing and especially images processing suits me well. I also follow a Visual Computing track, which consists of basis in the Visual Computing field and in Computer Vision and Computer Graphics.
+
+\lettersection{Why me?}
+Having already acquired some professional skills, I would invest myself seriously. I adapt myself easily to any situations and like the human contact. Teamwork do inspire me. Athlete at a good level, I consider myself enduring and dynamic. I also am very motivated and volunteer at work. \\
+Hoping that my application will draw your attention, I remain at your disposal for further informations or to meet you at an interview. I thank you in advance for the attention you will address it. \\
+I look forward to hearing from you.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

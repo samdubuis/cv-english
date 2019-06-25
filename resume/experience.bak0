@@ -1,0 +1,61 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%--------------------------------------------------------- 
+
+\cventry
+{Project assistant \& Teaching-assistant}
+{École Polytechnique Fédérale de Lausanne}
+{Lausanne, Vaud, Suisse}
+{February 2018 -- present}
+{\begin{cvitems}
+	\item{Support for the EPFL websites redesign project}
+\item{Websites migration from Jahia to WordPress}
+	\item{New graphical chart}	\item{Participating in the daily meetings}
+	\item{TA during project sessions for the Introduction to Visual Computing course}
+\end{cvitems}}
+
+\cventry
+{Fitter-Deliverer}
+{AJD Cuisines et Bains Sàrl}
+{Sion, Valais, Suisse}
+{June 2014 -- present}
+{\begin{cvitems}
+	\item{Summer job for a student that concerned delivering and putting up kitchens and bathrooms equipments, and some after-sale services}
+\end{cvitems}}
+
+\cventry
+{Worker}
+{Télé Leysin-Col des Mosses-La Lécherette SA}
+{Leysin, Vaud, Suisse}
+{July -- August 2013}
+{\begin{cvitems}
+	\item{Summer job for a student that concerned the maintenance of the resort and ski lifts}
+\end{cvitems}}
+   
+%\cventry
+%{Barman}
+%{Restaurant La Rose des Vents}
+%{Sion, Valais, Suisse}
+%{July -- August 2012}
+%{\begin{cvitems}
+%	\item{Summer job for a student}
+% \end{cvitems}}
+
+
+
+
+
+
+
+
+%---------------------------------------------------------
+\end{cventries}

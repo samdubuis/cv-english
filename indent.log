@@ -1,0 +1,29 @@
+INFO: latexindent version 3.5, 2018-08-13, a script to indent .tex files
+      latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
+      Sat Apr  6 14:05:19 2019
+      Filename: cv.tex
+INFO: Processing switches:
+      -w|--overwrite: Overwrite mode active, will make a back up of cv.tex first
+INFO: Directory for backup files and indent.log: .
+INFO: YAML settings read: defaultSettings.yaml
+      Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
+      Home directory is /home/samuel (didn't find either indentconfig.yaml or .indentconfig.yaml)
+      To specify user settings you would put indentconfig.yaml here: /home/samuel/indentconfig.yaml
+      Alternatively, you can use the hidden file .indentconfig.yaml as: /home/samuel/.indentconfig.yaml
+INFO: Backup procedure (-w flag active):
+      ./cv.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./cv.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      ./cv.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+      copying cv.tex to ./cv.bak3
+      Backup file: ./cv.bak3
+      cv.tex will be overwritten after indentation
+INFO: Phase 1: searching for objects
+INFO: Phase 2: finding surrounding indentation
+INFO: Phase 3: indenting objects
+INFO: Phase 4: final indentation check
+INFO: Output routine:
+      Overwriting file cv.tex
+      --------------
+INFO: Please direct all communication/issues to:
+      https://github.com/cmhughes/latexindent.pl
