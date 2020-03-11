@@ -233,6 +233,21 @@
 % param 4:	what was your position
 % param 5:	some words about your contributions
 %
+\newcommand{\volunteering}[3]{
+\vspace{3pt}
+	\begin{tabular*}{1\mpwidth}{p{1\mpwidth}  x{0.58\mpwidth}}
+ 	\textcolor{black}{\textbf{#1}} 
+
+	\end{tabular*}
+\vspace{-10pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+	\begin{tabular*}{0.5\mpwidth}{p{\mpwidth}}
+\larrow{softcol}  \small #2\\[3pt]
+\larrow{softcol}  \small #3\\[3pt]
+	\end{tabular*}
+}
+
 \newcommand{\cveventzero}[3]{
 \vspace{3pt}
 	\begin{tabular*}{1\mpwidth}{p{0.4\mpwidth}  x{0.58\mpwidth}}
@@ -429,7 +444,7 @@
 
 \cveventone{2018}{Student Assistant}{CHILI Lab, EPFL}{TA during project sessions for the Introduction to Visual Computing course under Prof. Dillenbourg}
 
-\cveventone{2013-2018}{Fitter-Deliverer}{AJD Cuisines et Bains Sàrl, Sion, VS}{Summer job consisting of delivering and putting up kitchens and bathrooms, and after-sale services}
+%\cveventone{2013-2018}{Fitter-Deliverer}{AJD Cuisines et Bains Sàrl, Sion, VS}{Summer job consisting of delivering and putting up kitchens and bathrooms, and after-%sale services}
 %\textcolor{softcol}{\hrule}
 
 
@@ -482,6 +497,10 @@
 \larrow{softcol} \small{Simbaforkids.ch website creation with WordPress} & \textcolor{complcol}{\small{SimbaForKids association}}
 \end{tabular*}
 
+\begin{tabular*}{1\mpwidth}{p{0.7\mpwidth}x{0.28\mpwidth}}
+\larrow{softcol} \small{See even more on my personnal page : samdubuis.github.io} & \textcolor{complcol}{\small{...}}
+\end{tabular*}
+
 
 \vspace{6pt}
 
@@ -490,6 +509,8 @@
 %    EXTRA PROFESIONNAL
 %---------------
 \cvsection{Extra-professional activities}
+
+\volunteering{Volunteer for multiple events and organizations}{For SwissBasketball during Finals, National Team games and other basketball related events}{Barman for the club of Sion Basket and during the Lausanne 3x3 Masters}
 
 \cveventone{2016-2020}{Basketball assistant coach}{AVsBa, ValBasket Camp}{Teaching of basketball in a pedagogical manner for younger ones, and in a more intensive manner for more experimented kids}
 
@@ -527,7 +548,7 @@
 	\icontext{MapMarker}{12}{Lausanne, VD, Switzerland}{softcol}\\[4pt]
 	\icontext{MobilePhone}{12}{+41 77 454 57 54}{softcol}\\[4pt]
 	\iconemail{Send}{12}{samuel.dubuis@netplus.ch}{samuel.dubuis@netplus.ch}{softcol}\\[4pt]
-	%\iconhref{MousePointer}{12}{http://jankuester.com/}{www.jankuester.com}{white}\\[6pt]
+	\iconhref{MousePointer}{12}{samdubuis.github.io}{http://samdubuis.github.io}{softcol}\\[4pt]
 	\iconhref{Github}{12}{samdubuis}{https://github.com/samdubuis}{softcol}\\[4pt]
 	%\iconhref{Twitter}{12}{@Kuester\_Jan}{https://twitter.com/kuester_jan?lang=en}{white}\\[6pt]
 	\iconhref{Linkedin}{12}{/in/samueldubuis}{https://linkedin.com/in/samueldubuis}{softcol}\\[4pt]
@@ -616,7 +637,7 @@ Adapt easily $\cdot$ Sociable and spontaneous \\ Leadership $\cdot$ Teamwork $\c
 
 \vspace{0pt}
 \begin{center}
-\includegraphics[width=0.30\mpwidth]{qr-code-github-page.png}
+\includegraphics[width=0.30\mpwidth]{qr-code.png}
 \end{center}
 
 \end{minipage}}
